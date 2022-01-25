@@ -1,0 +1,9 @@
+.search-form {
+    display: flex;
+    padding: 2rem 0;
+
+    > .search {
+        flex: 1;
+        padding: 1rem;
+    }
+}

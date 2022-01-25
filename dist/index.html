@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAnimeList Anime Search</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="header-section">
+        <div class="max-wrapper">
+            <div class="search-section">
+                <div class="search-form">
+                    <input 
+                        type="search" 
+                        class="search" 
+                        placeholder="Search your favorite anime..." 
+                        data-js-search
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section ends -->
+
+    <div class="result-section">
+        <div class="max-wrapper">
+            <section class="anime-section" data-js-anime-section></section>
+        </div>
+    </div>
+    <!-- search section ends -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/polyfill.js"></script>
+    <script src="js/behaviors/search.js"></script>
+</body>
+</html>

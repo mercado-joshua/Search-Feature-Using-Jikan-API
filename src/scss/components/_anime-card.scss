@@ -1,0 +1,12 @@
+.anime-card {
+    background-color: #fff;
+    box-shadow: 1px 2px 11px 1px rgba(0, 0, 0, 0.432);
+    border-radius: .5em;
+    overflow: hidden;
+    transition: transform 250ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+}

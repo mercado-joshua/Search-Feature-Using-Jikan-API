@@ -1,0 +1,51 @@
+*:where(::before, ::after) {
+    box-sizing: border-box;
+}
+
+ul, ol, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+:where(ul, ol) > li {
+    list-style: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 2em 0;
+}
+
+[class*="-btn"] {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    appearance: none;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    border-style: none;
+    height: auto;
+}
+
+.max-wrapper {
+    max-width: 992px;
+    width: 90%;
+    margin: 0 auto;
+}

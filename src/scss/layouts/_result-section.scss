@@ -1,0 +1,29 @@
+.anime-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.category-section {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+    > .headerbox {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        > .linebar {
+            flex-grow: 1;
+            border-bottom: 1px solid #000;
+        }
+    }
+}
+.anime-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13em, min-content));
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
